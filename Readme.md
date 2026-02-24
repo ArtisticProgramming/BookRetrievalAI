@@ -372,20 +372,3 @@ dotnet run
 * Azure requires valid API key and deployment names
 * Collections are separated per embedding model
 * When changing embedding models, use a new collection name
-
----
-
-# 👨‍💻 Author
-
-Built as a modular, extensible RAG system using modern .NET and Semantic Kernel patterns.
-
----
-
-If you’d like, I can now:
-
-* Turn this into a **portfolio-grade GitHub README with badges**
-* Add a professional architecture diagram
-* Help you write a LinkedIn post presenting this project
-* Help you describe this in a Senior .NET interview context
-
-Just tell me what you’re aiming for 😄
