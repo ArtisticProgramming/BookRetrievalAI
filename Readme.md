@@ -32,6 +32,10 @@ You can switch between **Azure OpenAI and local Ollama models** without changing
 
 # 🧠 What is RAG?
 
+<p align="center">
+  <img src="assets/RagModel.png" width="500"/>
+</p>
+
 **Retrieval-Augmented Generation (RAG)** improves LLM responses by:
 
 * Searching relevant information from a vector database
