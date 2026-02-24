@@ -132,32 +132,6 @@ Required to run Qdrant locally.
 
 ---
 
-# 📂 Project Structure
-
-```
-Core/
- ├── Interfaces/
- └── Models/
-
-Services/
- ├── Parsing/
- ├── Chunking/
- ├── Indexing/
- ├── Chat/
- ├── BookRagService.cs
- └── BookRagServiceWithOllamaLocalModels.cs
-```
-
-### Responsibilities
-
-* **Parsing** → Reads dataset and creates structured records
-* **Chunking** → Splits text into embedding-friendly segments
-* **Indexing** → Generates embeddings and stores them in Qdrant
-* **Chat** → Builds context and prompts
-* **Services** → Provider-specific orchestration
-
----
-
 # ⚙️ Setup Guide
 
 ---
@@ -315,34 +289,6 @@ After downloading, update:
 
 ---
 
-# 🧩 Core Components Explained
-
-## 📌 BookDataParser
-
-Reads raw dataset and converts it into structured records.
-
-## 📌 BookChunker
-
-Splits content into smaller segments suitable for embeddings.
-
-## 📌 BookIndexer
-
-Generates embeddings and pushes vectors into Qdrant.
-
-## 📌 ContextBuilder
-
-Retrieves top relevant chunks and builds LLM context.
-
-## 📌 PromptBuilder
-
-Constructs final prompt for the chat model.
-
-## 📌 RagChatService
-
-Handles chat completion using selected provider.
-
----
-
 # 🛠 How to Run
 
 1. Start Qdrant (Docker)
@@ -353,19 +299,6 @@ Handles chat completion using selected provider.
 ```bash
 dotnet run
 ```
-
----
-
-# 🎯 Key Features
-
-* ✅ Clean layered architecture
-* ✅ Provider abstraction
-* ✅ Config-based AI switching
-* ✅ Supports any local chat or embedding model
-* ✅ Works fully local or cloud
-* ✅ Vector database integration
-* ✅ Dataset-driven RAG pipeline
-* ✅ Easily scalable for large datasets
 
 ---
 
