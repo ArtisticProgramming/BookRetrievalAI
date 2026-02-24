@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRetrievalAI", "BookRetrievalAI\BookRetrievalAI.csproj", "{F46BD5EB-4ED4-41E3-A993-B22D3A7F3200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRetrievalAI.Service", "BookRetrievalAI.Service\BookRetrievalAI.Service.csproj", "{11C42D4E-5356-47E4-BCBE-A813BF1F35CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F46BD5EB-4ED4-41E3-A993-B22D3A7F3200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46BD5EB-4ED4-41E3-A993-B22D3A7F3200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46BD5EB-4ED4-41E3-A993-B22D3A7F3200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46BD5EB-4ED4-41E3-A993-B22D3A7F3200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C42D4E-5356-47E4-BCBE-A813BF1F35CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C42D4E-5356-47E4-BCBE-A813BF1F35CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C42D4E-5356-47E4-BCBE-A813BF1F35CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C42D4E-5356-47E4-BCBE-A813BF1F35CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AC40950-3C2F-4577-9BBF-84E5831D6B87}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿@page
+@model ChatModel
+
+<div class="app">
+
+    <div class="chat-window" id="chatWindow">
+        @foreach (var msg in Model.Messages)
+        {
+            <div class="message @(msg.Role)" style="text-align:right">
+                <div class="bubble">
+                    @msg.Content
+                </div>
+            </div>
+        }
+    </div>
+    <form method="post" style="padding: 3px 12px; margin: 5px;" asp-page-handler="Reset" class="reset-form">
+        <button type="submit" class="reset-button">🗑️</button>
+    </form>
+    <form method="post" class="input-area" id="chatForm">
+        <textarea asp-for="UserInput"
+                  placeholder="Ask something about a book..."
+                  rows="1"
+                  id="chatInput"></textarea>
+
+        <button type="submit">
+            ➤
+        </button>
+    </form>
+</div>
