@@ -236,20 +236,6 @@ Disable Azure:
 
 ---
 
-# 🔁 Switching Providers
-
-No code changes required.
-
-Simply toggle:
-
-```json
-"Enabled": true/false
-```
-
-The application automatically resolves the correct RAG service.
-
----
-
 # 📊 Dataset
 
 Default dataset file:
@@ -266,10 +252,6 @@ It is intentionally small for:
 * Fast testing
 * Quick indexing
 * Development purposes
-
----
-
-## 📈 Large-Scale Testing Dataset
 
 For high-scale RAG testing, you can download the full CMU Book Summary Dataset:
 
