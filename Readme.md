@@ -126,12 +126,6 @@ Runs locally via Docker.
 
 ---
 
-## 🐳 Docker
-
-Required to run Qdrant locally.
-
----
-
 # ⚙️ Setup Guide
 
 ---
@@ -158,7 +152,7 @@ Your config:
 
 ---
 
-## 2️⃣ (Optional) Install Ollama for Local LLM
+## 2️⃣ Install Ollama for Local LLM
 
 Download from:
 
